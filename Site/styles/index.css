@@ -1,0 +1,50 @@
+.main{
+
+}
+
+article h1{
+  text-align: center;
+  padding-bottom: 1.5rem;
+  font-size: 45px;
+}
+
+article h2{
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+    text-indent: 50px; /* Отступ первой строки в пикселах */
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.MainText{
+  display: block;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.stokes{
+  display:flex;
+  border-radius: 10px;
+  width: 300px;
+  transition: 1s;
+}
+
+/*.ustanovka:hover{
+  margin-left: 250px;
+  border-radius: 20px;
+  transform: scale(1.5);
+}*/
+
+.content{
+  display: flex;
+}
+
+.text{
+  display: block;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}

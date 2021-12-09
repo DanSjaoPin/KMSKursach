@@ -1,0 +1,33 @@
+article h1{
+  text-align: center;
+  padding-bottom: 1.5rem;
+  font-size: 45px;
+}
+
+article h2{
+  text-align: center;
+  font-size: 25px;
+}
+
+article h3{
+  text-indent: 50px;
+  font-size: 25px;
+}
+
+p {
+  text-indent: 50px; /* Отступ первой строки в пикселах */
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+.mapDIV, .video{
+  margin-left: 25%;
+}
+
+.map, .video video{
+  width: 650px;
+  height: 550px;
+}

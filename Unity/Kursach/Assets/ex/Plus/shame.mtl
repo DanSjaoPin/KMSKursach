@@ -1,0 +1,80 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 14.11.2014 14:24:41
+
+newmtl wire_153228214
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.6000 0.8941 0.8392
+	Kd 0.6000 0.8941 0.8392
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__4
+	Ns 28.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.6840 0.6840 0.6840
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Moltaji\Desktop\InkyDeals_Metal_004.jpg
+	map_Kd C:\Users\Moltaji\Desktop\InkyDeals_Metal_004.jpg
+	map_Ks C:\Users\Moltaji\Desktop\InkyDeals_Metal_004.jpg
+	map_bump C:\Users\Moltaji\Desktop\InkyDeals_Metal_004.jpg
+	bump C:\Users\Moltaji\Desktop\InkyDeals_Metal_004.jpg
+
+newmtl wire_027177027
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.1059 0.6941 0.1059
+	Kd 0.1059 0.6941 0.1059
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_214229166
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.8392 0.8980 0.6510
+	Kd 0.8392 0.8980 0.6510
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__8
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka H:\texture\Metal Textures\InkyDeals_Metal_016.jpg
+	map_Kd H:\texture\Metal Textures\InkyDeals_Metal_016.jpg
+	map_Ks H:\texture\Metal Textures\InkyDeals_Metal_016.jpg
+	map_bump H:\texture\Metal Textures\InkyDeals_Metal_016.jpg
+	bump H:\texture\Metal Textures\InkyDeals_Metal_016.jpg
+
+newmtl Material__9
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka H:\texture\Metal Textures\InkyDeals_Metal_017.jpg
+	map_Kd H:\texture\Metal Textures\InkyDeals_Metal_017.jpg
