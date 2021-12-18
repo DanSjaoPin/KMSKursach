@@ -21,6 +21,8 @@ public class Replacer : MonoBehaviour
             needPosition = objectsForLook[0].position;
             needRotation = objectsForLook[0].rotation;
             Move.isDefoultPosition = true;
+            Move.scrollCount = 0f;
+            Move.UpDownCount = 0f;
         }
     }
 

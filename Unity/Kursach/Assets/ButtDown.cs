@@ -7,6 +7,7 @@ public class ButtDown : MonoBehaviour
 {
     public float speed = 0.01f;
     public static bool isDown = false;
+    public static bool GO = false;
     public TextMeshPro textmeshPro;
     public static float seconds = 0f;
 
@@ -26,6 +27,8 @@ public class ButtDown : MonoBehaviour
         {
             transform.position += new Vector3(0, -0.2f, 0);
             isDown = true;
+            if (MoovingBalls.isReady)
+                GO = true;
         }
 
         if (OnUstanovka.isOn && isDown)

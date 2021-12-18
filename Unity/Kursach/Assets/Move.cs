@@ -8,8 +8,8 @@ public class Move : MonoBehaviour
     Transform target;
     private float rotationSpeed = 500.0f;
     Vector3 lookPoint;
-    private float scrollCount = 0f;
-    private float UpDownCount = 0f;
+    public static float scrollCount = 0f;
+    public static float UpDownCount = 0f;
     private float scrollBorder = 30f;
     private float UpDownBorder = 8f;
     public static bool isDefoultPosition = true;
