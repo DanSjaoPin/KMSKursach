@@ -45,3 +45,144 @@ p i{
   height: 450px;
   width: 500px;
 }
+
+
+
+
+.dialog {
+  margin: 20px 0;
+  display: block;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.dialog__window {
+  overflow: hidden;
+}
+
+.dialog__header {
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #1047A9;
+  color: #fff;
+  font-size: 32px;
+}
+
+.dialog__body {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: auto;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+}
+
+.dialog__submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.dialog__input {
+  width: 100%;
+  padding: 15px 25px;
+  background-color: #a1a5e2;
+  font-family: "Roboto", sans-serif;
+}
+
+.dialog__input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.dialog__input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.dialog__input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.dialog__input::placeholder {
+  color: #fff;
+}
+
+.dialog__button {
+  padding: 0 30px;
+  background-color: #1047A9;
+  color: #fff;
+  font-size: 2rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.dialog__button-hover {
+  padding: 0 40px;
+  background-color: #e1e2f3;
+  color: #5055b8;
+  font-size: 2.5rem;
+}
+
+.dialog__button-listen {
+  padding: 0 40px !important;
+  background-color: #ffc6c6 !important;
+  color: #ff2d2d !important;
+  font-size: 2.5rem !important;
+}
+
+.dialog__message {
+  margin: 5px;
+  padding: 10px;
+  max-width: 60%;
+  text-align: justify;
+}
+
+.dialog__message.question {
+  margin-left: auto;
+  background-color: #545ac783;
+  color: rgb(0, 0, 0);
+}
+
+.dialog__message.answer {
+  margin-right: auto;
+  background-color: #545ac783;
+}
+
+.dialog__image {
+  margin: 5px;
+  margin-right: auto;
+  width: 80%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5055b8;
+}
+
+.footer__text {
+  text-transform: uppercase;
+  color: white;
+  font-size: 75%;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */
+

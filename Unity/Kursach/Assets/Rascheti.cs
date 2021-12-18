@@ -43,7 +43,7 @@ public class Rascheti : MonoBehaviour, IPointerClickHandler
 
             double avgn = (Convert.ToDouble(iN[1].text) + Convert.ToDouble(iN[2].text) + Convert.ToDouble(iN[3].text) + Convert.ToDouble(iN[4].text)) / 5;
 
-            avgN.text = Math.Round( avgn, 2).ToString();
+            avgN.text = Math.Round(avgn, 2).ToString();
 
             double x = 0;
 
@@ -57,9 +57,12 @@ public class Rascheti : MonoBehaviour, IPointerClickHandler
             Debug.Log("///" + x);
             x = 2.8 * Math.Sqrt(x);
             Debug.Log("sqrt" + x);
-            deltaN.text = (x).ToString();
+            deltaN.text = (Math.Round(x, 3)).ToString();
 
-            eN.text = ((Convert.ToDouble(deltaN.text) / Convert.ToDouble(avgN.text))*100).ToString() + "%";
+            double percent = (Convert.ToDouble(deltaN.text) / Convert.ToDouble(avgN.text)) * 100;
+            percent = Math.Round(percent, 0);
+
+            eN.text = percent.ToString() + "%";
 
             for (int i = 0; i < 5; i++)
             {

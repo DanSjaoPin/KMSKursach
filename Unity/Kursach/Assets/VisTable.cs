@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class VisTable : MonoBehaviour, IPointerClickHandler
 {
     public GameObject Table;
-    public bool isVisible = false;
+    public static bool isVisible = false;
 
     public void OnPointerClick(PointerEventData eventData)
     {
